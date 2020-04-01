@@ -1,23 +1,25 @@
 # Instagram Comments Scraper
 
 ## Install dependencies
-`pip install -r requirements.txt`
+This program requires python installed on your machine. From your Linux/Mac terminal, install the dependencies by running :
+`$ pip install -r requirements.txt`
 
 ## Install Chrome Web Driver
-Download latest Chrome web driver from https://sites.google.com/a/chromium.org/chromedriver/downloads <br /> <br />
+Download latest Chrome web driver from https://sites.google.com/a/chromium.org/chromedriver/downloads
 Or if you on Linux/Ubuntu <br />
-`wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_linux64.zip` <br /> <br />
-Extract the binary then move to `/usr/bin/` <br />
-`sudo mv chromedriver /usr/bin/chromedriver` <br />
-`sudo chown root:root /usr/bin/chromedriver` <br />
-`sudo chmod +x /usr/bin/chromedriver` <br /> <br />
-
+`wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_linux64.zip`
+Extract the binary then move to `/usr/local/bin/`
+`$ sudo mv chromedriver /usr/local/bin/chromedriver`
+`$ sudo chown root:root /usr/local/bin/chromedriver`
+`$ sudo chmod +x /usr/local/bin/chromedriver`
 
 ## Run
-`python scraper.py post-url total-load-more-click` <br />
-Change the URL with your post target <br />
-Example : <br />
-`python scraper.py https://www.instagram.com/p/BqUfulwH6O4/ 5`
+From your Linux/Mac terminal run :
+`$ python scraper.py <post-url> <total-load-more-click>`
+
+Change the URL with your post target
+For Example :
+`$ python scraper.py https://www.instagram.com/p/BqUfulwH6O4/ 5`
 
 # License
 This project is under the [MIT License](https://github.com/AgiMaulana/instagram-comments-scraper/blob/master/LICENSE.md)
