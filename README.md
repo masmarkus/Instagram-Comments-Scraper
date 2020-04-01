@@ -2,13 +2,16 @@
 
 ## Install dependencies
 This program requires python installed on your machine. From your Linux/Mac terminal, install the dependencies by running :
+
 `$ pip install -r requirements.txt`
 
 ## Install Chrome Web Driver
 Download latest Chrome web driver from https://sites.google.com/a/chromium.org/chromedriver/downloads  
+
 Or if you on Linux/Ubuntu <br>
-`wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_linux64.zip`  
-Extract the binary then move to `/usr/local/bin/`by issuing : <br>
+`wget https://chromedriver.storage.googleapis.com/2.43/chromedriver_linux64.zip`
+
+Extract the binary file then move it to `/usr/local/bin/`by issuing : <br>
 `$ sudo mv chromedriver /usr/local/bin/chromedriver` <br>
 `$ sudo chown root:root /usr/local/bin/chromedriver` <br>
 `$ sudo chmod +x /usr/local/bin/chromedriver`
