@@ -14,11 +14,11 @@ Extract the binary then move to `/usr/local/bin/`by issuing : <br/>
  $ sudo chmod +x /usr/local/bin/chromedriver`
 
 ## Run
-From your Linux/Mac terminal run :
+From your Linux/Mac terminal run : </br>
 `$ python scraper.py <post-url> <total-load-more-click>`
 
-Change the URL with your post target
-For Example :
+Change the URL with your post target  
+For Example : </br>
 `$ python scraper.py https://www.instagram.com/p/BqUfulwH6O4/ 5`
 
 # License
